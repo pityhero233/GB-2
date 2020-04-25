@@ -1,0 +1,35 @@
+/home/pityhero/.bin/clion-2019.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pityhero/catkin_ws/src/gbrobot
+-- Using CATKIN_DEVEL_PREFIX: /home/pityhero/catkin_ws/src/gbrobot/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/pityhero/catkin_ws/devel_isolated/rplidar_ros;/home/pityhero/catkin_ws/devel_isolated/orb_slam2_ros;/home/pityhero/catkin_ws/devel_isolated/miiboo_imu;/home/pityhero/catkin_ws/devel_isolated/gbrobot;/home/pityhero/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/pityhero/catkin_ws/devel_isolated/rplidar_ros;/home/pityhero/catkin_ws/devel_isolated/orb_slam2_ros;/home/pityhero/catkin_ws/devel_isolated/miiboo_imu;/home/pityhero/catkin_ws/devel_isolated/gbrobot;/home/pityhero/catkin_ws/devel;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/pityhero/catkin_ws/src/gbrobot/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.18
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- gbrobot: 0 messages, 5 services
+-- gbrobot: Found user-provided header '/home/pityhero/catkin_ws/src/gbrobot/include/gbrobot/deskInserter.h' for message 'gbrobot/deskInserter'. Skipping generation...
+-- gbrobot: Found user-provided header '/home/pityhero/catkin_ws/src/gbrobot/include/gbrobot/reset.h' for message 'gbrobot/reset'. Skipping generation...
+-- gbrobot: Found user-provided header '/home/pityhero/catkin_ws/src/gbrobot/include/gbrobot/navigate.h' for message 'gbrobot/navigate'. Skipping generation...
+-- gbrobot: Found user-provided header '/home/pityhero/catkin_ws/src/gbrobot/include/gbrobot/waypointInserter.h' for message 'gbrobot/waypointInserter'. Skipping generation...
+-- gbrobot: Found user-provided header '/home/pityhero/catkin_ws/src/gbrobot/include/gbrobot/debug.h' for message 'gbrobot/debug'. Skipping generation...
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'system_lib' but neither
+  'system_lib_INCLUDE_DIRS' nor 'system_lib_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:115 (catkin_package)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pityhero/catkin_ws/src/gbrobot/cmake-build-debug

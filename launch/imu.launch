@@ -1,0 +1,6 @@
+<launch>
+  <node name="imu_read_node" pkg="miiboo_imu"  type="imu_read" output="screen">
+    <param name="com_port"     value="/dev/imu"/>
+    <param name="imu_frame_id" value="imu_link"/>
+  </node>
+</launch>

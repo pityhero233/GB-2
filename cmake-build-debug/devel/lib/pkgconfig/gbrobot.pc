@@ -1,0 +1,8 @@
+prefix=/home/pityhero/catkin_ws/src/gbrobot/cmake-build-debug/devel
+
+Name: gbrobot
+Description: Description of gbrobot
+Version: 0.0.0
+Cflags: -I/home/pityhero/catkin_ws/src/gbrobot/cmake-build-debug/devel/include -I/home/pityhero/catkin_ws/src/gbrobot/include
+Libs: -L/home/pityhero/catkin_ws/src/gbrobot/cmake-build-debug/devel/lib 
+Requires: geometry_msgs nav_msgs roscpp rospy sensor_msgs std_msgs
